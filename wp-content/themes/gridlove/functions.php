@@ -79,8 +79,6 @@ function gridlove_theme_setup() {
 	/* Support for predefined font-sizes in editor */
 	add_theme_support( 'editor-font-sizes', gridlove_get_editor_font_sizes() );
 
-	wp_enqueue_style( 'custom-hth', get_template_directory_uri() . '/assets/css/custom-hth.css');
-
 }
 
 /* Helpers and utility functions */

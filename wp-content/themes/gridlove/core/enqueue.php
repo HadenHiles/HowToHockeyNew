@@ -43,7 +43,8 @@ function gridlove_load_css() {
 			'bootstrap' => 'bootstrap.css',
 			'magnific-popup' => 'magnific-popup.css',
 			'owl-carousel' => 'owl-carousel.css',
-			'main' => 'main.css'
+			'main' => 'main.css',
+			'custom-hth' => 'custom-hth.css'
 		);
 
 		foreach ( $styles as $id => $style ) {
@@ -104,7 +105,8 @@ function gridlove_load_js() {
 			'sticky-kit' => 'sticky-kit.js',
 			'owl-carousel' => 'owl-carousel.js',
 			'objectfit-images' => 'ofi.js',
-			'main' => 'main.js'
+			'main' => 'main.js',
+			'custom-hth' => 'custom-hth.js'
 		);
 
 		foreach ( $scripts as $id => $script ) {
