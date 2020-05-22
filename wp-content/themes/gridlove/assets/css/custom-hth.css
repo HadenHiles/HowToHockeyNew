@@ -10,21 +10,16 @@
 	word-wrap: break-word;
 }
 
-/* .gridlove-site-content .gridlove-module .module-header .module-title,
-.gridlove-site-content .gridlove-module .module-header .module-title h1,
-.gridlove-site-content .gridlove-module .module-header .module-title h2,
-.gridlove-site-content .gridlove-module .module-header .module-title h3,
-.gridlove-site-content .gridlove-module .module-header .module-title h4,
-.gridlove-site-content .gridlove-module .module-header .module-title h5,
-.gridlove-site-content .gridlove-module .module-header .module-title h6,
-.gridlove-site-content .gridlove-module .module-header .module-desc,
-.gridlove-site-content .gridlove-module .module-header .module-desc p,
-.gridlove-site-content .gridlove-module .module-header .module-desc i,
-.gridlove-site-content .gridlove-module .module-header .module-desc strong,
-.gridlove-site-content .gridlove-module .module-header .module-desc b,
-.gridlove-site-content .gridlove-module .module-header .module-desc a {
-	color: #ffffff;
+
+/* Fix gridlove mobile menu dropdown icon touch area */
+.widget_pages ul > li > a,
+.widget_nav_menu ul > li > a {
+  padding: 10px 0 10px 30px !important;
+  margin: 0 !important;
 }
-.gridlove-site-content .gridlove-module .module-header .module-desc a:hover {
-	color: #cc3333;
-} */
+span.gridlove-nav-widget-acordion {
+  right: 0 !important;
+  top: -4px !important;
+  width: auto !important;
+	padding: 17px 30px 14px 30px;
+}
