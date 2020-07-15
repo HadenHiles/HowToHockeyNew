@@ -6562,3 +6562,29 @@ Gutenberg gallery
     margin-left: 3%;
   }
 }
+
+/* HTH Custom */
+.gridlove-main-navigation ul.gridlove-main-nav li.hockey-training a svg {
+  width: 24px;
+  height: 24px; 
+  position: relative; 
+  top: 6px;
+  display: inline-block;
+  fill: #fff;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.gridlove-main-navigation ul.gridlove-main-nav li.current-menu-item.hockey-training a svg,
+.gridlove-main-navigation ul.gridlove-main-nav li.hockey-training a:hover svg {
+  fill: #cc3333;
+}
+.gridlove-main-navigation ul.gridlove-main-nav li.current-menu-item.hockey-training a:hover svg,
+.gridlove-main-navigation ul.gridlove-main-nav li.menu-item-has-children.hockey-training a:hover svg {
+  fill: #fff;
+}
+.gridlove-main-navigation ul.gridlove-main-nav li.hockey-training ul li a:before {
+  content: '';
+}
