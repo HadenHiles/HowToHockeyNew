@@ -6597,3 +6597,8 @@ Gutenberg gallery
 .gridlove-sidebar-action-inside ul.gridlove-mobile-menu li.menu-item-has-children.hockey-training.active a svg {
   fill: #cc3333;
 }
+
+.hover a:hover, a.hover:hover, .hover h1:hover {
+  cursor: pointer;
+  color: #cc3333 !important;
+}
