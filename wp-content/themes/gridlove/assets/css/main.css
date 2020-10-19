@@ -6564,6 +6564,7 @@ Gutenberg gallery
 }
 
 /* HTH Custom */
+.gridlove-sidebar-action-inside ul.gridlove-mobile-menu li.hockey-training a svg,
 .gridlove-main-navigation ul.gridlove-main-nav li.hockey-training a svg {
   width: 24px;
   height: 24px; 
@@ -6577,14 +6578,22 @@ Gutenberg gallery
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+.gridlove-sidebar-action-inside ul.gridlove-mobile-menu li.hockey-training a svg {
+  fill: #444444;
+}
+
 .gridlove-main-navigation ul.gridlove-main-nav li.current-menu-item.hockey-training a svg,
 .gridlove-main-navigation ul.gridlove-main-nav li.hockey-training a:hover svg {
   fill: #cc3333;
 }
+
 .gridlove-main-navigation ul.gridlove-main-nav li.current-menu-item.hockey-training a:hover svg,
 .gridlove-main-navigation ul.gridlove-main-nav li.menu-item-has-children.hockey-training a:hover svg {
   fill: #fff;
 }
-.gridlove-main-navigation ul.gridlove-main-nav li.hockey-training ul li a:before {
-  content: '';
+
+.gridlove-sidebar-action-inside ul.gridlove-mobile-menu li.current-menu-item.hockey-training a:hover svg,
+.gridlove-sidebar-action-inside ul.gridlove-mobile-menu li.menu-item-has-children.hockey-training a:hover svg,
+.gridlove-sidebar-action-inside ul.gridlove-mobile-menu li.menu-item-has-children.hockey-training.active a svg {
+  fill: #cc3333;
 }
