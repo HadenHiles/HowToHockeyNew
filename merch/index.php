@@ -137,7 +137,7 @@ wp_enqueue_script( 'merch', '/merch/js/main.js');
                             </div>
                         </div>
 
-                        <div class="col-md-3 col-sm-6 banner_25">
+                        <!-- <div class="col-md-3 col-sm-6 banner_25">
                             <div class="banner_item hover_image">
 
                                 <img style="width: 100%" class="banner_image" src="./images/summer-skates.png" alt="" data-src="./images/summer-skates.png" data-widths="[360, 540, 720, 900, 1080, 1296, 1512, 1728, 1810]">
@@ -147,6 +147,23 @@ wp_enqueue_script( 'merch', '/merch/js/main.js');
                                     <a class="caption_text merch-link" id="summer-skates" href="https://www.summerskates.ca/products/how-to-hockey" target="_blank">
 
                                         <p class="banner_text">Summer Skates</p>
+
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <div class="col-md-3 col-sm-6 banner_25">
+                            <div class="banner_item hover_image">
+
+                                <img style="width: 100%" class="banner_image" src="./images/toques.png" alt="" data-src="./images/toques.png" data-widths="[360, 540, 720, 900, 1080, 1296, 1512, 1728, 1810]">
+
+                                <div class="banner_caption style_minimal">
+
+                                    <a class="caption_text merch-link" id="toques" href="#" target="_blank">
+
+                                        <p class="banner_text">Toques</p>
 
                                     </a>
 
