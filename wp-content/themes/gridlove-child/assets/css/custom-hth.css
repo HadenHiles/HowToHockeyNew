@@ -1,0 +1,25 @@
+/* How To Hockey Extras */
+.overflow-hidden {
+	overflow: hidden !important;
+}
+.table-wrap {
+	overflow-x: scroll;
+}
+.table-wrap td {
+	white-space: wrap !important;
+	word-wrap: break-word;
+}
+
+
+/* Fix gridlove mobile menu dropdown icon touch area */
+.widget_pages ul > li > a,
+.widget_nav_menu ul > li > a {
+  padding: 10px 0 10px 30px !important;
+  margin: 0 !important;
+}
+span.gridlove-nav-widget-acordion {
+  right: 0 !important;
+  top: -4px !important;
+  width: auto !important;
+	padding: 17px 30px 14px 30px;
+}
