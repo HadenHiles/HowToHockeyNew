@@ -6610,6 +6610,11 @@ Gutenberg gallery
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
+  padding: 10px;
+  margin: 15px 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .offer_container div {
   padding: 10px;
@@ -6643,4 +6648,19 @@ Gutenberg gallery
 }
 .offer_container .right button {
   margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .offer_container {
+    flex-wrap: wrap;
+    flex-basis: 50%;
+  }
+  .offer_container .thumbnail, .offer_container .right {
+    width: 50%;
+  }
+  .offer_container .content {
+    order: 3;
+    width: 100%;
+    flex-basis: 100%;
+  }
 }
