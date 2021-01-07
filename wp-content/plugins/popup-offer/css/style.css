@@ -1,0 +1,192 @@
+body.noscroll {
+  overflow: hidden;
+}
+
+.popup-offer-wrapper {
+  position: fixed;
+  z-index: 9995;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.popup-offer-wrapper.hide {
+  display: none;
+}
+
+.popup-offer-wrapper.hide .popup-offer {
+  width: 0;
+  height: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.popup-offer-wrapper .popup-offer-overlay {
+  position: absolute;
+  z-index: 9995;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.popup-offer-wrapper .popup-offer {
+  position: relative;
+  z-index: 9996;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 500px;
+  max-width: 90%;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.popup-offer-wrapper .popup-offer.background {
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  color: #fff !important;
+}
+
+.popup-offer-wrapper .popup-offer.background .background-overlay {
+  position: absolute;
+  z-index: 9996;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.popup-offer-wrapper .popup-offer.background h1, .popup-offer-wrapper .popup-offer.background h2, .popup-offer-wrapper .popup-offer.background h3, .popup-offer-wrapper .popup-offer.background h4, .popup-offer-wrapper .popup-offer.background h5, .popup-offer-wrapper .popup-offer.background h6, .popup-offer-wrapper .popup-offer.background p, .popup-offer-wrapper .popup-offer.background span, .popup-offer-wrapper .popup-offer.background i, .popup-offer-wrapper .popup-offer.background strong, .popup-offer-wrapper .popup-offer.background a {
+  color: #fff !important;
+}
+
+.popup-offer-wrapper .popup-offer .header {
+  position: relative;
+  z-index: 9997;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5% 5% 0 5%;
+}
+
+.popup-offer-wrapper .popup-offer .header a {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.popup-offer-wrapper .popup-offer .body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  position: relative;
+  z-index: 9997;
+  padding: 5% 10%;
+}
+
+.popup-offer-wrapper .popup-offer .body .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.popup-offer-wrapper .popup-offer .body .row div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.popup-offer-wrapper .popup-offer .body img {
+  max-width: 100%;
+}
+
+.popup-offer-wrapper .popup-offer .footer {
+  margin-top: 10%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9997;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 5% 5% 5%;
+}
+
+.popup-offer-wrapper .popup-offer .footer a.BTN {
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+}
+
+.popup-offer-wrapper .popup-offer a.BTN {
+  background-color: #cc3333;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=style.css.map */
