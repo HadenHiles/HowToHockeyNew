@@ -43,6 +43,12 @@ function popup_offer($atts = [], $content = null, $tag = '') {
         </div>
         <div class="popup-offer-overlay"></div>
     </div>
+
+    <div class="popup-offer-button-holder">
+        <a href="#" id="open-popup-offer" class="popup-offer-button">
+            <img src="/wp-content/uploads/2021/02/THEPOND_WHITE_WORDMARK_RAW.png" alt="The Pond" />
+        </a>
+    </div>
 <?php
     return ob_get_clean();
 }

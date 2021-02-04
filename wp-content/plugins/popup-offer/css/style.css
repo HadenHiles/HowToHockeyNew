@@ -5,9 +5,7 @@ body.noscroll {
 .popup-offer-wrapper {
   position: fixed;
   z-index: 9995;
-  top: 0;
   left: 0;
-  right: 0;
   bottom: 0;
   width: 100%;
   height: 100%;
@@ -24,20 +22,20 @@ body.noscroll {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .popup-offer-wrapper.hide {
-  display: none;
-}
-
-.popup-offer-wrapper.hide .popup-offer {
+  opacity: 0;
+  right: auto;
+  top: auto;
+  bottom: 0;
+  left: 0;
   width: 0;
   height: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .popup-offer-wrapper .popup-offer-overlay {
@@ -188,5 +186,42 @@ body.noscroll {
   padding: 10px 20px;
   color: #fff;
   border-radius: 5px;
+}
+
+.popup-offer-button-holder {
+  position: fixed;
+  z-index: 9994;
+  bottom: 10px;
+  left: 10px;
+  height: 55px;
+  width: 55px;
+}
+
+.popup-offer-button-holder a.popup-offer-button {
+  background: #cc3333;
+  border-radius: 50px;
+  padding: 10px;
+  width: 55px;
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+          filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.popup-offer-button-holder a.popup-offer-button img {
+  width: 100%;
+  height: auto;
 }
 /*# sourceMappingURL=style.css.map */
