@@ -2,7 +2,7 @@
 
 <?=do_shortcode('[popup_offer title="Want to improve your skills?" background_url="https://howtohockey.com/wp-content/uploads/2020/05/IMG_1388-scaled.jpg"]
 <p style="text-align: center;">Are you looking for a path to improve your hockey skills in the most efficient way possible?</p>
-<p style="text-align: center;">Join now to get your <strong>first</strong> month on The Pond for only $1!</p>
+<p style="text-align: center;">Join now to get your <strong>first</strong> month on The Pond for only $5!</p>
 <div class="row">
 <div><img src="https://cdn.thepond.howtohockey.com/2020/01/THEPOND_WHITE_SNOWBANK.svg" style="width: 250px;" /></div>
 <div style="text-align: center;">
