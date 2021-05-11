@@ -110,7 +110,7 @@ wp_enqueue_script( 'merch', '/merch/js/main.js');
 
                                 <div class="banner_caption style_minimal">
 
-                                    <a class="caption_text merch-link" id="teespring" href="https://teespring.com/stores/howtohockey" target="_blank">
+                                    <a class="caption_text merch-link" id="teespring" href="http://merch.howtohockey.com" target="_blank">
 
                                         <p class="banner_text">Latest</p>
 
