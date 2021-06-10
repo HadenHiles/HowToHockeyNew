@@ -2,11 +2,11 @@
     var offerClosed = getCookie("offer_closed");
     $(document).ready(() => {
         $popupOffer = $('#popup-offer');
-        if ($popupOffer.length == 1 && !offerClosed) {
-            setTimeout(() => {
-                $popupOffer.removeClass('hide');
-            }, 2000);
-        }
+        // if ($popupOffer.length == 1 && !offerClosed) {
+        //     setTimeout(() => {
+        //         $popupOffer.removeClass('hide');
+        //     }, 2000);
+        // }
 
         $('#popup-offer-close-btn').click((e) => {
             e.preventDefault();
