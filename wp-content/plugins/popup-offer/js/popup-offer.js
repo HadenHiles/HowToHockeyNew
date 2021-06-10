@@ -19,7 +19,7 @@
             $popupOffer.addClass('hide');
         });
 
-        $('#open-popup-offer').click((e) => {
+        $('#open-popup-offer, .open-popup-offer').click((e) => {
             e.preventDefault();
             $popupOffer.removeClass('hide');
         });
